@@ -10,6 +10,21 @@ Features
 •	User-Friendly Interface: Modern, intuitive interface built with PyQt5, including professional touches and customization.
 •	Open Source: Licensed under GPLv3, Visionari is open for contribution and enhancement by the community.
 
+
+**New Features: Enhanced LLM Parameters UI**
+
+Max New Tokens Slider: Allows users to set the maximum length of the generated text. This is now equipped with a detailed tooltip explaining its functionality and a 3D visual effect for better interaction.
+
+Tooltip: "Maximum length of the newly generated text. If explicitly set to None, it will be the model's max context length minus input length. (Default: 512, 1 ≤ max_new_tokens ≤ 1000000)"
+
+Temperature Slider: Controls the randomness of the output. A tooltip has been added for a better understanding of this parameter, and the slider has a smooth movement with an improved visual style.
+
+Tooltip: "Temperature to use for sampling. 0 means the output is deterministic. Values greater than 1 encourage more diversity. (Default: 0.7, 0 ≤ temperature ≤ 1)"
+
+Top P Slider: Provides control over the sampling strategy by choosing from the highest probability tokens. This slider also includes a tooltip and improved visuals for a more intuitive user experience.
+
+Tooltip: "Sample from the set of tokens with the highest probability such that the sum of probabilities is higher than p. Lower values focus on the most probable tokens. Higher values sample more low-probability tokens. (Default: 0.9, 0 < top_p ≤ 1)"
+
 **Installation**
 To get started with Visionari, clone the repository and install the required dependencies.
 Prerequisites
