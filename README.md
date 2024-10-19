@@ -2,6 +2,10 @@
 
 ****Visionari - Simple tool based on llama vision ****
 
+
+![image](https://github.com/user-attachments/assets/de5e5b36-6624-49eb-b809-073a346b98d5)
+
+
 Visionari is an AI-powered desktop application designed to analyze images and generate insightful responses based on user queries. Built using PyQt5 for the GUI, this application interacts with the Groq API for LLM (Large Language Model) capabilities, providing users with intuitive and interactive image analysis features.
 Features
 
